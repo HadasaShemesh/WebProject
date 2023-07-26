@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manager</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <b><a href="index.html">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="schedule.html">מערכת שיעורים</a></b>
+            <b><a href="customersAndTeacher.html">עדכון שיעורים</a></b>
+            <b><a href="newCustomer.html">לקוחה חדשה</a></b>
+            <b><a href="newSpecialCustomer.html">ספורט טיפולי</a></b>
+        </div>
+    </header>
+
+    <form style="text-align: center;direction: rtl;height: 250px;">
+
+        <p style="font-size: xx-large;color: black;background-color: rgb(179, 182, 184); ">
+            מידע אישי על המכון:
+        </p>
+        <div id="list">
+            <a href="teachers.html"><input type="button" value="למורה חדשה" id="button"></a>
+            <input type="button" value="להצגת פרטי הלקוחות" id="button" onclick="GetShowAllCustomersR()">
+            <input type="button" value="להצגת פרטי המורות" id="button" onclick="GetShowAllTeachers()">
+            <input type="button" value="להצגת לקוחות ספורט טיפולי" id="button" onclick="GetShowAllCustomersT()">
+            <a href="chanePassword.html"><input type="button" value="לשנוי סיסמאות" id="button"></a>
+            <input type="button" value="לעדכון פרטים" id="button" onclick="Update()">
+            <input type="button" value="למחיקה" id="button" onclick="Delete()">
+            <input type="button" value="לרכישת כרטיסייה חדשה" id="button" onclick="toBuy()">
+            <input type="button" value="איפוס שיעורים למורה" id="button" onclick="toResetLessonsToTeacher()">
+            <input type="button" value="שינויים בלוח זמני החוגים" id="button" onclick="toShowLessons()">
+
+            <div id="therapistList"></div>
+            <br>
+            <br>
+            <input type="button" value="הקש ת.ז" id="enterID" style="display: none;">
+            <input type="text" placeholder="ת.ז" id="enter" style="display: none;" required pattern="[0-9]{9}">
+            <input type="button" value="שלח" id="SendID" style="display: none;" onclick="IdForUpdate()">
+            <input id="0" type="reset" style="display: none;">
+
+
+
+            <input type="button" value="הקש ת.ז" id="enterID1" style="display: none;">
+            <input type="text" placeholder="ת.ז" id="enter1" style="display: none;" required pattern="[0-9]{9}">
+            <input type="button" value="שלח" id="SendID1" style="display: none;" onclick="IdForDelete()">
+            <input id="1" type="reset" style="display: none;">
+
+            <br>
+
+            <input type="button" value="הקש ת.ז" id="enterID2" style="display: none;">
+            <input type="text" placeholder="ת.ז" id="enter2" style="display: none;" required pattern="[0-9]{9}">
+            <input type="button" value="שלח" id="SendID2" style="display: none;" onclick="toResetLessonsToSend()">
+            <input id="2" type="reset" style="display: none;">
+
+
+            <input type="button" value="למחיקת שיעור" id="deleteTime" style="display: none;" onclick="deleteTime1()">
+            <input type="button" value="לעדכון שיעורים" id="updateTime" style="display: none;" onclick="updateTime1()">
+            <input type="button" value="הוספת שיעורים" id="addTime" style="display: none;" onclick="addTime1()">
+
+
+
+
+
+        </div>
+        <br>
+        <br>
+        <div>
+            <input type="button" style="display: none;" id="putDetails1" value="הכנס פרטי חוג להוספה">
+            <input type="text" placeholder="יום" id="day1" style="display: none;">
+            <input type="text" placeholder="שעה" id="hour1" style="display: none;">
+            <input type="text" placeholder="שם חוג" id="nameOfCourse1" style="display: none;">
+            <input type="button" style="display: none;" id="sendToTime1" value="שלח" onclick="addTimeToSend()">
+            <input type="reset" value="איפוס" style="display: none;" id="1send">
+
+
+            <input type="button" style="display: none;" id="putDetails2" value="הכנס פרטי חוג למחיקה">
+            <input type="text" placeholder="יום" id="day2" style="display: none;">
+            <input type="text" placeholder="שעה" id="hour2" style="display: none;">
+            <input type="text" placeholder="שם חוג" id="nameOfCourse2" style="display: none;">
+            <input type="button" style="display: none;" id="sendToTime2" value="שלח" onclick="deleteTimeToSend()">
+            <input type="reset" value="איפוס" style="display: none;" id="2send">
+
+
+            <input type="button" style="display: none;" id="putDetails3" value="הכנס פרטי חוג לעדכון">
+            <input type="text" placeholder="יום" id="day3" style="display: none;">
+            <input type="text" placeholder="שעה" id="hour3" style="display: none;">
+            <input type="text" placeholder="שם חוג" id="nameOfCourse3" style="display: none;">
+            <input type="button" style="display: none;" id="sendToTime3" value="שלח" onclick="updateTimeToSend()">
+            <input type="reset" value="איפוס" style="display: none;" id="3send">
+
+            <input type="button" style="display: none;" id="putDetails4">
+            <input type="button" placeholder="יום" id="id4" style="display: none;">
+            <input type="text" placeholder="יום" id="day4" style="display: none;">
+            <input type="text" placeholder="שעה" id="hour4" style="display: none;">
+            <input type="text" placeholder="שם חוג" id="nameOfCourse4" style="display: none;">
+            <input type="button" style="display: none;" id="sendToTime4" value="שלח" onclick="toUpdateLesson()">
+            <input type="reset" value="איפוס" style="display: none;" id="4send">
+
+        </div>
+
+    </form>
+    <div id="t5" style="display: none;">
+        <div id="w6">
+            <div class="container2" style="height: 300px;">
+                <form action="/action_page.php">
+                    <label style="font-size: xx-large;" for="amount"> לרכישת כרטיסייה חדשה:</label>
+                    <br>
+                    <br>
+                    <label style="font-size:x-large;" for="amount">הקישי ת.ז:</label>
+                    <br>
+                    <br>
+                    <input type="text" id="code9" placeholder="ת.ז." required pattern="[0-9]{9}">
+                    <br>
+                    <br>
+                    <input id="buttonim" type="button" value="שלח" onclick="buyNewCard()">
+                    <input id="buttonim" type="reset" onclick="resetPass()">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div id="w" style="display: none;">
+            <form id="to">
+                <fieldset style="background-color: rgb(179, 182, 184); ">
+                    <label style="font-size: xx-large;" for="amount">לקוחה</label>
+
+                    <p>
+                        <label for="nmf1">שם משפחה:</label>
+                        <input type="text" id="nmf1" name="family name" placeholder="משפחה" required>
+                    </p>
+
+                    <p>
+                        <label for="address1"> כתובת:</label>
+                        <input type="text" id="address1" name="address" placeholder="כתובת" required>
+                    </p>
+                    <p>
+                        <label for="phone1"> מספר טלפון:</label>
+                        <input type="text" id="phone1" name="phone" placeholder="טלפון/פלאפון" required>
+                    </p>
+                    <p>
+                        <label for="pharm1">קופת חולים:</label>
+                        <input type="text" id="pharm1" list="listpharms" name="pharm name" placeholder="קופת חולים"
+                            required>
+                        <datalist id="listpharms1">
+                            <option value="לאומית">לאומית</option>
+                            <option value="מכבי"> מכבי</option>
+                            <option value="כללית">כללית</option>
+                            <option value="מאוחדת">מאוחדת</option>
+                        </datalist>
+                    </p>
+                    <!-- <p>
+                        <label for="code">סיסמא:</label>
+                        <input type="password" id="code" name="code" placeholder="5 ספרות">
+                    </p> -->
+                    <p>
+                        <input type="button" value="שלח" onclick="updateCustomer1()">
+                        <input type="reset">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="w1" style="display: none;">
+            <div id="to">
+                <form>
+                    <fieldset style="background-color: rgb(179, 182, 184);">
+                        <label style="font-size: xx-large;" for="amount">מורה</label>
+                        <p>
+                            <label for="nmf2">שם משפחה:</label>
+                            <input type="text" id="nmf2" name="family name" placeholder="משפחה" required>
+                        </p>
+
+                        <p>
+                            <label for="address2"> כתובת:</label>
+                            <input type="text" id="address2" name="address" placeholder="כתובת" required>
+                        </p>
+                        <p>
+                            <label for="phone2"> מספר טלפון:</label>
+                            <input type="text" id="phone2" name="phone" placeholder="טלפון/פלאפון" required>
+                        </p>
+                        <!-- <p>
+                            <label for="code2">סיסמא:</label>
+                            <input type="password" id="code2" name="code" placeholder="7 ספרות">
+                        </p> -->
+                        <p>
+                            <input type="button" value="שלח" onclick="updateTeacher1()">
+                            <input type="reset">
+                        </p>
+                        <div id="ans1"></div>
+                    </fieldset>
+
+                </form>
+            </div>
+        </div>
+
+        <div id="w2" style="display: none;">
+            <form id="to">
+                <fieldset style="background-color: rgb(179, 182, 184);">
+                    <label style="font-size: xx-large;" for="amount">ספורט טיפולי</label>
+                    <p>
+                        <label for="nmf3">שם משפחה:</label>
+                        <input type="text" id="nmf3" name="family name" placeholder="משפחה" required>
+                    </p>
+
+                    <p>
+                        <label for="address3"> כתובת:</label>
+                        <input type="text" id="address3" name="address" placeholder="כתובת" required>
+                    </p>
+                    <p>
+                        <label for="phone3"> מספר טלפון:</label>
+                        <input type="text" id="phone3" name="phone" placeholder="טלפון/פלאפון" required>
+                    </p>
+                    <p>
+                        <label for="pharm3">קופת חולים:</label>
+                        <input type="text" id="pharm3" list="listpharms" name="pharm name" placeholder="קופת חולים"
+                            required>
+                        <datalist id="listpharms3">
+                            <option value="לאומית">לאומית</option>
+                            <option value="מכבי"> מכבי</option>
+                            <option value="כללית">כללית</option>
+                            <option value="מאוחדת">מאוחדת</option>
+                        </datalist>
+                    </p>
+                    <p>
+                        <label for="type3">סוג המגבלה:</label>
+                        <input type="text" id="type3" name="type" placeholder="סוג" required>
+                    </p>
+                    <p>
+                        <label for="Disability3">אזור המגבלה:</label>
+                        <input type="text" id="Disability3" name="Disability" placeholder="אזור" required>
+                    </p>
+                    <p>
+                        <label for="lp3">ישנה הפנייה:</label>
+                        <select id="lp3" name="selectedbranch" required>
+                            <option value="true">כן</option>
+                            <option value="false">לא</option>
+                        </select>
+                    </p>
+
+                    <!-- <p>
+                        <label for="code3">סיסמא:</label>
+                        <input type="password" id="code3" name="code" placeholder="5 ספרות">
+                    </p> -->
+                    <p>
+                        <input type="button" value="שלח" onclick="updateCustomerSpecial1()">
+                        <input type="reset">
+                    <div id="res7"></div>
+                    </p>
+                </fieldset>
+            </form>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div onClick="window.location.reload()"><input type="reset" value="איפוס" id="refresh"
+                    style="width: 200px;height: 50px; display: none;margin-left: 45%;"></div>
+
+            <!-- <div onClick="window.location.reload()"><input type="reset" value="איפוס" id="refresh2"
+                    style="width: 150px;height: 50px;margin-left: 50%; display: none;"></div>
+
+            <div onclick="refreshPageDelete()"><input type="reset" value="איפוס" id="refresh3"
+                    style="width: 150px;height: 50px;margin-left: 50%;display: none;"></div>
+            <div onClick="window.location.reload()"><input type="reset" value="איפוס" id="less"
+                    style="width: 150px;height: 50px;margin-left: 45%;display: none;"></div> -->
+        </div>
+    </div>
+
+
+
+    <script src="manager.js"></script>
+    <script src="Customers.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+G:\c#\פרויקט c#\Project\BL\bin\Debug\BL.dll
+G:\c#\פרויקט c#\Project\BL\bin\Debug\BL.pdb
+G:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.dll
+G:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.dll
+G:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.pdb
+G:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.pdb
+G:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CopyComplete
+G:\c#\פרויקט c#\Project\BL\obj\Debug\BL.dll
+G:\c#\פרויקט c#\Project\BL\obj\Debug\BL.pdb
+D:\c#\פרויקט c#\Project\BL\bin\Debug\BL.dll
+D:\c#\פרויקט c#\Project\BL\bin\Debug\BL.pdb
+D:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.dll
+D:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.dll
+D:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.pdb
+D:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.pdb
+D:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CopyComplete
+D:\c#\פרויקט c#\Project\BL\obj\Debug\BL.dll
+D:\c#\פרויקט c#\Project\BL\obj\Debug\BL.pdb
+E:\c#\פרויקט c#\Project\BL\bin\Debug\BL.dll
+E:\c#\פרויקט c#\Project\BL\bin\Debug\BL.pdb
+E:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.dll
+E:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.dll
+E:\c#\פרויקט c#\Project\BL\bin\Debug\DAL.pdb
+E:\c#\פרויקט c#\Project\BL\bin\Debug\DTO.pdb
+E:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csprojAssemblyReference.cache
+E:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\c#\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CopyComplete
+E:\c#\פרויקט c#\Project\BL\obj\Debug\BL.dll
+E:\c#\פרויקט c#\Project\BL\obj\Debug\BL.pdb
+C:\Users\Comp14\Desktop\פרויקט c#\Project\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\Comp14\Desktop\פרויקט c#\Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Comp14\Desktop\פרויקט c#\Project\BL\obj\Debug\BL.dll
+C:\Users\Comp14\Desktop\פרויקט c#\Project\BL\obj\Debug\BL.pdb
+G:\Project\BL\bin\Debug\BL.dll
+G:\Project\BL\bin\Debug\BL.pdb
+G:\Project\BL\bin\Debug\DAL.dll
+G:\Project\BL\bin\Debug\DTO.dll
+G:\Project\BL\bin\Debug\DAL.pdb
+G:\Project\BL\bin\Debug\DTO.pdb
+G:\Project\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\Project\BL\obj\Debug\BL.csproj.CopyComplete
+G:\Project\BL\obj\Debug\BL.dll
+G:\Project\BL\obj\Debug\BL.pdb
+G:\c#\פרויקט מעודכן\BL\bin\Debug\BL.dll
+G:\c#\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+G:\c#\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+G:\c#\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+G:\c#\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+G:\c#\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+G:\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+G:\c#\פרויקט מעודכן\BL\obj\Debug\BL.dll
+G:\c#\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+G:\c#\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+G:\c#\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+G:\c#\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\obj\Debug\BL.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\BL.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+W:\פרויקט מעודכן\BL\bin\Debug\BL.dll
+W:\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+W:\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+W:\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+W:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+W:\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+W:\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+W:\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+W:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+W:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+W:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+W:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+W:\פרויקט מעודכן\BL\obj\Debug\BL.dll
+W:\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+G:\פרויקט מעודכן\BL\bin\Debug\BL.dll
+G:\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+G:\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+G:\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+G:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+G:\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+G:\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+G:\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+G:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+G:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+G:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+G:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+G:\פרויקט מעודכן\BL\obj\Debug\BL.dll
+G:\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+D:\פרויקט מעודכן\BL\bin\Debug\BL.dll
+D:\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+D:\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+D:\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+D:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+D:\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+D:\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+D:\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+D:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+D:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+D:\פרויקט מעודכן\BL\obj\Debug\BL.dll
+D:\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\BL.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\obj\Debug\BL.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\BL\obj\Debug\BL.pdb
+D:\פרויקט מעודכן\BL\obj\Debug\BL.csprojAssemblyReference.cache
+F:\פרויקט מעודכן\BL\bin\Debug\BL.dll
+F:\פרויקט מעודכן\BL\bin\Debug\BL.pdb
+F:\פרויקט מעודכן\BL\bin\Debug\DAL.dll
+F:\פרויקט מעודכן\BL\bin\Debug\DTO.dll
+F:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.dll
+F:\פרויקט מעודכן\BL\bin\Debug\DAL.pdb
+F:\פרויקט מעודכן\BL\bin\Debug\DAL.dll.config
+F:\פרויקט מעודכן\BL\bin\Debug\DTO.pdb
+F:\פרויקט מעודכן\BL\bin\Debug\EntityFramework.xml
+F:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+F:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+F:\פרויקט מעודכן\BL\obj\Debug\BL.csproj.CopyComplete
+F:\פרויקט מעודכן\BL\obj\Debug\BL.dll
+F:\פרויקט מעודכן\BL\obj\Debug\BL.pdb

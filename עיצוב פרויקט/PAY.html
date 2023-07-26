@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAY</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topnav" id="myTopnav">
+            <b><a href="index.html">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="newSpecialCustomer.html">לקוחה חדשה</a></b>
+
+        </div>
+    </header>
+    <br>
+    <div id="all">
+
+        <div class="container2">
+            <form action="/action_page.php">
+                <label style="font-size: xx-large;" for="amount">התחיבויות מהקופה</label>
+                <br>
+                <br>
+                <input type="text" id="amount" name="firstname" placeholder="כמות התחיבויות">
+                <input id="buttonim" type="button" value="שלח" onclick="amountOFprescription()">
+                <input id="buttonim" type="reset">
+                <br>
+                <br>
+                <br>
+                <label style="font-size: xx-large;" for="less">להורדת שיעור-התחיבות</label>
+                <br>
+                <br>
+                <input type="text" id="less" name="lastname" placeholder="כמות שיעורים">
+
+                <input id="buttonim" type="button" value="שלח" onclick="lessPrescription()">
+                <input id="buttonim" type="reset">
+            </form>
+        </div>
+        <br>
+
+        <div class="container2">
+            <form action="/action_page.php" style="height: 100px;">
+
+                <label style="font-size: xx-large;" for="improve"> מעקב אחר שיפור:</label>
+                <br>
+                <br>
+                <textarea id="improve" cols="30" rows="4" placeholder="האם יש שיפור?"></textarea>
+                <br>
+                <br>
+                <input id="buttonim" type="button" value="שלח" onclick="sendTextImrove()">
+                <input id="buttonim" type="reset" >
+            </form>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- <div class="logo"><a href="/" title="FREEFIT"></a></div> -->
+    <footer>
+    </footer>
+    <script src="Customers.js"></script>
+</body>
+
+</html>

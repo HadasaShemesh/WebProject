@@ -1,0 +1,98 @@
+G:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.dll
+G:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.pdb
+G:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.dll
+G:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.pdb
+D:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.dll
+D:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.pdb
+D:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.dll
+D:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.pdb
+E:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.dll
+E:\c#\פרויקט c#\Project\DAL\bin\Debug\DAL.pdb
+E:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.dll
+E:\c#\פרויקט c#\Project\DAL\obj\Debug\DAL.pdb
+C:\Users\Comp14\Desktop\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Comp14\Desktop\פרויקט c#\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Comp14\Desktop\פרויקט c#\Project\DAL\obj\Debug\DAL.dll
+C:\Users\Comp14\Desktop\פרויקט c#\Project\DAL\obj\Debug\DAL.pdb
+G:\Project\DAL\bin\Debug\DAL.dll
+G:\Project\DAL\bin\Debug\DAL.pdb
+G:\Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Project\DAL\obj\Debug\DAL.dll
+G:\Project\DAL\obj\Debug\DAL.pdb
+G:\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+G:\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+G:\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+G:\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+G:\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+G:\c#\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+G:\c#\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+G:\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+W:\תכנות שנה ב תשפג\c#\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+W:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+W:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+W:\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+W:\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+W:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+W:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+W:\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+W:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+W:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+W:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+G:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+G:\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+G:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+G:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+G:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+G:\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+D:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+D:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+D:\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+D:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+D:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+D:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+D:\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+C:\Users\Comp14\Desktop\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb
+D:\פרויקט מעודכן\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll.config
+F:\פרויקט מעודכן\DAL\bin\Debug\DAL.dll
+F:\פרויקט מעודכן\DAL\bin\Debug\DAL.pdb
+F:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.dll
+F:\פרויקט מעודכן\DAL\bin\Debug\EntityFramework.xml
+F:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\פרויקט מעודכן\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\פרויקט מעודכן\DAL\obj\Debug\DAL.dll
+F:\פרויקט מעודכן\DAL\obj\Debug\DAL.pdb

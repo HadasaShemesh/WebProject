@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>home</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="manager.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topnav" id="sticky-div">
+            <b><a href="index.html" class="active">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="schedule.html">מערכת שיעורים</a></b>
+            <b><a onclick="document.getElementById('id01').style.display='block'"
+                    style="color: #f1f1f1;cursor: pointer;">כניסה למנהלת</a></b>
+            <b><a href="customersAndTeacher.html">עדכון שיעורים</a></b>
+            <b><a href="newCustomer.html">לקוחה חדשה</a></b>
+            <b><a href="newSpecialCustomer.html">ספורט טיפולי</a></b>
+        </div>
+
+    </header>
+    <!-- <img src="assets/ביאור 2022-12-13 215000.png" style="height: 90px;"></img> -->
+
+    <main>
+
+        <!-- model -->
+        <div id="id01" class="modal">
+            <!-- Modal Content -->
+            <form class="modal-content animate" onsubmit="return false">
+                <div class="imgcontainer">
+                    <img src="assets/logostudiosport.png" style="height: 180px;">
+                </div>
+                <div class="container1" style="direction: rtl;">
+                    <div style="text-align: center;">
+                        <label for="psw"><b>סיסמא:</b></label>
+                        <input type="password" id="psw" placeholder="9 ספרות" name="psw" required>
+                    </div>
+                    <button type="submit" onclick="cheakPassword()">כניסה</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+
+                    <div class="container1" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">ביטול</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div id="ans5"></div>
+        <!-- <div id="mySidenav" class="sidenav">
+            <a href="customersAndTeacher.html" id="add"><img src="assets/Add Computer-WF.png"
+                    style="width: 70px;height: 70px;"></a>
+            <a href="#" id="like"><img src="assets/ll.png" style="width: 50px;height: 50px;"></a>
+            <a href="aboat.html" id="projects"><img src="assets/Agreement-01.png" style="width: 50px;height: 50px;"></a>
+            <a href="aboat.html" id="contact"><img src="assets/mmm.png" style="width: 50px;height: 50px;"></a>
+        </div> -->
+    </main>
+
+
+    </main>
+    <footer>
+    </footer>
+
+    <script src="manager.js"></script>
+</body>
+
+</html>
+
+<!-- <div id="option"><a href="overCustomer.html"><img src="assets/Woman.png"
+                    style="width: 150px; height:150px;"></a>
+            <div>
+                <a href="overCustomer.html"><i><b>ללקוחה</b></i></a>
+            </div>
+        </div>
+        <div id="option"><a href="overTeacher.html"><img src="assets/Woman-03.png"
+                    style="width: 150px; height:150px;"></a>
+            <div>
+                <a href="overTeacher.html"><i><b>למורה</b></i></a>
+            </div>
+        </div>
+        <div id="option"><a href="Confirmation.html"><img src="assets/Business-Woman.png"
+                    style="width: 150px; height:150px;"></a>
+            <div>
+                <a href="Confirmation.html"><i><b>למנהלת</b></i></a>
+            </div>
+        </div> -->
+<!-- <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2500);
+        }
+    </script> -->
+<!-- The Modal -->
+
+
+<!-- <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="">password?</a></span>
+    </div> -->
+
+
+<!--  <h1><i>welcome to studioSport</i></h1>
+        <div id="allimg" >
+            <a href="">
+                <img src="assets/WhatsApp.png" style="width:80px;height: 80px;">
+            </a>
+            <a href="">
+                <img src="assets/Like - 01.png" style="width:80px;height: 80px;">
+            </a>
+            <div class="w3-content w3-section" style="max-width:5%;height:5%;">
+                <img class="mySlides" src="assets/Yoga-05.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Yoga-07.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Yoga-08.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Run.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Skiing.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Fencing.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/High-Jump-02.png" style="width:100%;height: 100%;">
+                <img class="mySlides" src="assets/Cheer-Leader.png" style="width:100%;height: 100%;">
+            </div>
+        </div> -->
+<!-- <form id="form">
+            <p>
+                <input type="button" value="🔍">
+                <input type="text" id="search">
+                <label for="search" style="font-size:xxx-large ;">:חיפוש</label>
+            </p>
+        </form> -->
+<!-- <div>
+            <a href="">
+                <p>ליצירת קשר</p>
+                <img src="assets/WhatsApp.png">
+            </a>
+
+            <a href="">
+                <p>למשוב</p>
+                <img src="assets/Like - 01.png">
+            </a>
+        </div>  -->

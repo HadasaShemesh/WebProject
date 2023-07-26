@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newSpecialCustomer</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<header>
+    <div class="topnav" id="myTopnav">
+        <b><a href="index.html">בית</a></b>
+        <b><a href="aboat.html">קצת עלינו</a></b>
+        <b><a href="newSpecialCustomer.html" class="active">ללקוחה טיפולית חדשה</a></b>
+        <b><a href="paySpecialCustomer.html">לתשלום ומעקב</a></b>
+
+    </div>
+</header>
+
+<body>
+
+
+    <div id="w2">
+        <form id="to"  style="border: 6px solid">
+                <b><label style="font-size: xx-large;">ספורט טיפולי-לקוחה חדשה</label></b>
+
+                <p>
+                    <label for="FirstName">שם פרטי:</label>
+                    <input type="text" id="FirstName" name="first name" placeholder="שם" required>
+                </p>
+
+                <p>
+                    <label for="nmf">שם משפחה:</label>
+                    <input type="text" id="nmf" name="family name" placeholder="משפחה" required>
+                </p>
+                <p>
+                    <label for="id"> תעודת זהות:</label>
+                    <input type="text" id="id" name="id" placeholder="ת.ז."  required pattern="[0-9]{9}">
+                </p>
+                <p>
+                    <label for="address"> כתובת:</label>
+                    <input type="text" id="address" name="address" placeholder="כתובת" required>
+                </p>
+                <p>
+                    <label for="phone"> מספר טלפון:</label>
+                    <input type="text" id="phone" name="phone" placeholder="טלפון/פלאפון" required>
+                </p>
+                <p>
+                    <label for="pharm">קופת חולים:</label>
+                    <input type="text" id="pharm" list="listpharms" name="pharm name" placeholder="קופת חולים" required>
+                    <datalist id="listpharms">
+                        <option value="לאומית">לאומית</option>
+                        <option value="מכבי"> מכבי</option>
+                        <option value="כללית">כללית</option>
+                        <option value="מאוחדת">מאוחדת</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="age">שנת לידה:</label>
+                    <input type="text" id="age" name="age" placeholder="שנת לידה" required>
+                </p>
+                <p>
+                    <label for="type">סוג המגבלה:</label>
+                    <input type="text" id="type" name="type" placeholder="סוג" required>
+                </p>
+                <p>
+                    <label for="Disability">אזור המגבלה:</label>
+                    <input type="text" id="Disability" name="Disability" placeholder="אזור" required>
+                </p>
+                <p>
+                    <label for="lp">ישנה הפנייה:</label>
+                    <select id="lp" name="selectedbranch" required>
+                        <option value="true">כן</option>
+                        <option value="false">לא</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="date"> תאריך ההרשמה:</label>
+                    <input type="date" id="date" name="date" required>
+                </p>
+
+                <p>
+                    <label for="code"> בחירת סיסמא:</label>
+                    <input type="password" id="code" name="code" placeholder="5 ספרות"  required pattern="[0-5]{5}">
+                </p>
+                <p>
+                    <input type="button" value="שלח" onclick="sendSpecialCustomer()">
+                    <input type="reset">
+                <div id="res7"></div>
+                </p>
+        </form>
+
+    </div>
+
+<script src="Customers.js"></script>
+</body>
+
+</html>

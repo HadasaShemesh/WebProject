@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StusioSportDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdTeacher" Type="nvarchar" MaxLength="9" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Pharm" Type="nvarchar" MaxLength="50" />
+    <Property Name="GivePrescription" Type="bit" />
+    <Property Name="NormalSport" Type="int" />
+    <Property Name="SpecialSport" Type="int" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="AmountOfLesson" Type="int" />
+    <Property Name="DoRegular" Type="bit" />
+  </EntityType>
+  <EntityType Name="Lesson">
+    <Key>
+      <PropertyRef Name="IdLesson" />
+    </Key>
+    <Property Name="IdLesson" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="day" Type="nvarchar" MaxLength="50" />
+    <Property Name="hour" Type="nvarchar" MaxLength="50" />
+    <Property Name="nameOfCourse" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Manager">
+    <Key>
+      <PropertyRef Name="ManagerId" />
+    </Key>
+    <Property Name="ManagerId" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="9" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NormalSport">
+    <Key>
+      <PropertyRef Name="IdCourseN" />
+    </Key>
+    <Property Name="IdCourseN" Type="int" Nullable="false" />
+    <Property Name="NameOfCourse" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Addres" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="IdTeacher" />
+    </Key>
+    <Property Name="IdTeacher" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="7" Nullable="false" />
+    <Property Name="NormalSport" Type="int" />
+    <Property Name="SpecialSport" Type="int" />
+    <Property Name="AmountOfLessonTeacher" Type="int" />
+  </EntityType>
+  <EntityType Name="TherapeuticSports">
+    <Key>
+      <PropertyRef Name="IdCourseT" />
+    </Key>
+    <Property Name="IdCourseT" Type="int" Nullable="false" />
+    <Property Name="ThereIsReference" Type="bit" Nullable="false" />
+    <Property Name="TypeOfDisability" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AreaOfDisability" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HowPrescription" Type="int" />
+    <Property Name="ThereIsImprove" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Customers_ToPerson">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customers_ToTherapeuticSports">
+    <End Role="TherapeuticSports" Type="Self.TherapeuticSports" Multiplicity="0..1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TherapeuticSports">
+        <PropertyRef Name="IdCourseT" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="SpecialSport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Manager_ToPerson">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Manager" Type="Self.Manager" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Manager">
+        <PropertyRef Name="ManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NormalSport_ToCourse">
+    <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+    <End Role="NormalSport" Type="Self.NormalSport" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NormalSport">
+        <PropertyRef Name="IdCourseN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_ToNormalSport">
+    <End Role="NormalSport" Type="Self.NormalSport" Multiplicity="0..1" />
+    <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NormalSport">
+        <PropertyRef Name="IdCourseN" />
+      </Principal>
+      <Dependent Role="Teachers">
+        <PropertyRef Name="NormalSport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_ToPerson">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teachers">
+        <PropertyRef Name="IdTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TherapeuticSports_ToCourses">
+    <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+    <End Role="TherapeuticSports" Type="Self.TherapeuticSports" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TherapeuticSports">
+        <PropertyRef Name="IdCourseT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StusioSportDBModelStoreContainer">
+    <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lesson" EntityType="Self.Lesson" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Manager" EntityType="Self.Manager" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NormalSport" EntityType="Self.NormalSport" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TherapeuticSports" EntityType="Self.TherapeuticSports" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Customers_ToPerson" Association="Self.FK_Customers_ToPerson">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customers_ToTherapeuticSports" Association="Self.FK_Customers_ToTherapeuticSports">
+      <End Role="TherapeuticSports" EntitySet="TherapeuticSports" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Manager_ToPerson" Association="Self.FK_Manager_ToPerson">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Manager" EntitySet="Manager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NormalSport_ToCourse" Association="Self.FK_NormalSport_ToCourse">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="NormalSport" EntitySet="NormalSport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_ToNormalSport" Association="Self.FK_Teachers_ToNormalSport">
+      <End Role="NormalSport" EntitySet="NormalSport" />
+      <End Role="Teachers" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_ToPerson" Association="Self.FK_Teachers_ToPerson">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Teachers" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TherapeuticSports_ToCourses" Association="Self.FK_TherapeuticSports_ToCourses">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="TherapeuticSports" EntitySet="TherapeuticSports" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

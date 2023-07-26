@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="27f255ef320741109abf98e040253082" Name="Diagram1">
+        <EntityTypeShape EntityType="StusioSportDBModel.Cours" Width="1.5" PointX="1.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.Customer" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.Lesson" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.Manager" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.NormalSport" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.Person" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.Teacher" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StusioSportDBModel.TherapeuticSport" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="StusioSportDBModel.FK_NormalSport_ToCourse" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_TherapeuticSports_ToCourses" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_Customers_ToPerson" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_Customers_ToTherapeuticSports" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_Manager_ToPerson" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_Teachers_ToNormalSport" ManuallyRouted="false" />
+        <AssociationConnector Association="StusioSportDBModel.FK_Teachers_ToPerson" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

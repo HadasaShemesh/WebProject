@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachers</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <b><a href="index.html">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="schedule.html">מערכת שיעורים</a></b>
+            <b><a href="customersAndTeacher.html">עדכון שיעורים</a></b>
+            <b><a href="newCustomer.html">לקוחה חדשה</a></b>
+        </div>
+
+    </header>
+    <br>
+    <br>
+    <div id="w1">
+        <div id="to">
+            <form style="border: 5px solid black" onsubmit="return false">
+
+                <b><label style="font-size: xx-large;">מורה חדשה</label></b>
+
+                <p>
+                    <label for="nm">שם פרטי:</label>
+                    <input type="text" id="nm" name="first name" placeholder="שם" required>
+                </p>
+
+                <p>
+                    <label for="nmf">שם משפחה:</label>
+                    <input type="text" id="nmf" name="family name" placeholder="משפחה" required>
+                </p>
+                <p>
+                    <label for="id"> תעודת זהות:</label>
+                    <input type="text" id="id" name="id" placeholder="ת.ז." required>
+                </p>
+
+                <p>
+                    <label for="address"> כתובת:</label>
+                    <input type="text" id="address" name="address" placeholder="כתובת" required>
+                </p>
+                <p>
+                    <label for="phone"> מספר טלפון:</label>
+                    <input type="text" id="phone" name="phone" placeholder="טלפון/פלאפון" required>
+                </p>
+
+
+                <p>
+                    <label for="cours">שם קורס:</label>
+                    <input type="text" id="cours" list="listcours" name="cours" placeholder="קורס" required>
+                    <datalist id="listcours" required>
+                        <option value="ארובי ועיצוב">ארובי ועיצוב</option>
+                        <option value="פילאטיס">פילאטיס </option>
+                        <option value="פיטבול">פיטבול</option>
+                        <option value="זומבה">זומבה</option>
+                        <option value="יוגה">יוגה</option>
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="code"> בחירת סיסמא:</label>
+                    <input type="password" id="code" name="code" placeholder="7 ספרות" required pattern="[0-7]{7}">
+                </p>
+                <p>
+                    <input type="submit" value="שלח" onclick="sendNewTeacher()">
+                    <input type="reset">
+                </p>
+                <div id="ans1"></div>
+            </form>
+        </div>
+
+    </div>
+
+    <a href="manager.html">
+        <h1>חזור</h1>
+        </div>
+    </a>
+    <script src="Teachers.js"></script>
+</body>
+
+</html>

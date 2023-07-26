@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <b><a href="index.html">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="schedule.html">מערכת שיעורים</a></b>
+            <b><a href="customersAndTeacher.html" class="active">עדכון שיעורים</a></b>
+            <b><a href="newCustomer.html">לקוחה חדשה</a></b>
+
+        </div>
+    </header>
+    <br>
+    <div id="all">
+
+        <div class="container2" style="height: 450px;">
+            <form action="/action_page.php">
+                <b>
+                    <p style="font-size: xxx-large;">לקוחה</p>
+                </b>
+
+                <label style="font-size: xx-large;" for="amount"> לסימון v על שיעור שהיית</label>
+                <br>
+                <br>
+                <label style="font-size: x-large;" for="code"> הקישי סיסמא:</label>
+                <br>
+                <input type="password" id="code1" name="code" placeholder="5 ספרות" required pattern="[0-5]{5}">
+                <br>
+                <br>
+                <input id="buttonim" type="button" value="שלח" onclick="sendToLess()">
+                <input id="buttonim" type="reset">
+                <br>
+
+            </form>
+        </div>
+        <div class="container2" style="height: 450px;">
+            <form action="/action_page.php">
+                <b>
+                    <p style="font-size:xxx-large;">מורה</p>
+                </b>
+
+                <label style="font-size: xx-large;" for="amount"> לסימון v על שיעור שהעברת
+                </label>
+                <br>
+                <br>
+                <label style="font-size: x-large;" for="code"> הקישי סיסמא:</label>
+                <br>
+
+                <input type="password" id="code7" name="code" placeholder="7 ספרות" required pattern="[0-7]{7}">
+                <br>
+                <br>
+                <input id="buttonim" type="button" value="שלח" onclick="addLessonToTeacher()">
+                <input id="buttonim" type="reset">
+                <br>
+
+            </form>
+        </div>
+
+        <!-- <div id="w">
+            <form id="to">
+                <fieldset style="border: 5px solid black;">
+                    <legend style="font-size: xx-large; ">
+                        <b>
+                            לשיעור בודד ללא כרטיסייה:
+                        </b>
+                    </legend>
+                    <p>
+                        <label for="nm">שם פרטי:</label>
+                        <input type="text" id="nm" name="first name" placeholder="שם">
+                    </p>
+
+                    <p>
+                        <label for="nmf">שם משפחה:</label>
+                        <input type="text" id="lnf" name="family name" placeholder="משפחה">
+                    </p>
+                    <p>
+                        <label for="pay">שולם למאמנת הקורס:</label>
+                        <select id="lpp" name="selectedbranch">
+                            <option value="true">כן</option>
+                            <option value="false">לא</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="button" value="שלח" onclick="">
+                        <input type="reset">
+                    <div id="res3"></div>
+                    </p>
+
+                </fieldset>
+            </form> -->
+
+        <!-- </div> -->
+
+
+
+        </fieldset>
+        </form>
+        </fieldset>
+        </form>
+
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- <div class="logo"><a href="/" title="FREEFIT"></a></div> -->
+
+    <script src="Customers.js"></script>
+    <script src="Teachers.js"></script>
+</body>
+
+</html>

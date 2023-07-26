@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paySpecialCustomer</title>
+    <link rel="shortcut icon" href="assets/1.png" type="image/png">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <b><a href="index.html">בית</a></b>
+            <b><a href="aboat.html">קצת עלינו</a></b>
+            <b><a href="newSpecialCustomer.html">ללקוחה חדשה</a></b>
+
+        </div>
+    </header>
+
+
+    <div id="w">
+        <div class="container2" style="height: 350px;width: 350px;">
+            <form action="/action_page.php">
+                <b>
+                    <p style="font-size:xx-large;">לתשלום ומעקב</p>
+                </b>
+
+                <label style="font-size: x-large;" for="code3">הקישי סיסמא:</label>
+                <br>
+                <br>
+                <input type="password" id="code3" name="code" placeholder="5 ספרות"  required pattern="[0-5]{5}">
+                <br>
+                <br>
+                <input id="buttonim" type="button" value="שלח" onclick="sendToPay()">
+                <input id="buttonim" type="reset">
+                <br>
+            </form>
+        </div>
+    </div>>
+    <script src="Customers.js"></script>
+</body>
+
+</html>
